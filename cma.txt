@@ -1,0 +1,21 @@
+lam: wavelength
+
+L:
+W:
+dx: interelement spacing x axis
+dy: interelement spacing y axis
+mx: no. of elements x axis
+ny: no. of element y axis
+xc: pos of array elements x axis
+yc: pos of array element y axis
+
+U: pos of farfield points x axis
+V: pos of farfield points y axis
+
+gnabs: Gain absolute
+ArrFac: Array Factor
+x1: u axis points in uv coord
+y1: v axis points in uv coord
+gn: element pattern
+jlow:
+ampl:
