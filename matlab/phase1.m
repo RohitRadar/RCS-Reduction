@@ -5,7 +5,7 @@ close all;
 file = fopen("pics/readme.md",'w');
 for i=1:20:5001
     fprintf(file,"#### iteration"+num2str(i)+"\n");
-    fprintf(file,"![image](/matlab/pics/iter"+num2str(i)+".jpg)"+"\n");
+    fprintf(file,"![image](/matlab/pics/iter"+num2str(i)+".jpg)"+"{:height='100px' width='100px'}"+"\n");
 end
 fclose(file);
 

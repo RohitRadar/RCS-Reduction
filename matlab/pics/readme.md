@@ -1,502 +1,502 @@
 #### iteration1
-![image](/matlab/pics/iter1.jpg)
+![image](/matlab/pics/iter1.jpg){:height='100px' width='100px'}
 #### iteration21
-![image](/matlab/pics/iter21.jpg)
+![image](/matlab/pics/iter21.jpg){:height='100px' width='100px'}
 #### iteration41
-![image](/matlab/pics/iter41.jpg)
+![image](/matlab/pics/iter41.jpg){:height='100px' width='100px'}
 #### iteration61
-![image](/matlab/pics/iter61.jpg)
+![image](/matlab/pics/iter61.jpg){:height='100px' width='100px'}
 #### iteration81
-![image](/matlab/pics/iter81.jpg)
+![image](/matlab/pics/iter81.jpg){:height='100px' width='100px'}
 #### iteration101
-![image](/matlab/pics/iter101.jpg)
+![image](/matlab/pics/iter101.jpg){:height='100px' width='100px'}
 #### iteration121
-![image](/matlab/pics/iter121.jpg)
+![image](/matlab/pics/iter121.jpg){:height='100px' width='100px'}
 #### iteration141
-![image](/matlab/pics/iter141.jpg)
+![image](/matlab/pics/iter141.jpg){:height='100px' width='100px'}
 #### iteration161
-![image](/matlab/pics/iter161.jpg)
+![image](/matlab/pics/iter161.jpg){:height='100px' width='100px'}
 #### iteration181
-![image](/matlab/pics/iter181.jpg)
+![image](/matlab/pics/iter181.jpg){:height='100px' width='100px'}
 #### iteration201
-![image](/matlab/pics/iter201.jpg)
+![image](/matlab/pics/iter201.jpg){:height='100px' width='100px'}
 #### iteration221
-![image](/matlab/pics/iter221.jpg)
+![image](/matlab/pics/iter221.jpg){:height='100px' width='100px'}
 #### iteration241
-![image](/matlab/pics/iter241.jpg)
+![image](/matlab/pics/iter241.jpg){:height='100px' width='100px'}
 #### iteration261
-![image](/matlab/pics/iter261.jpg)
+![image](/matlab/pics/iter261.jpg){:height='100px' width='100px'}
 #### iteration281
-![image](/matlab/pics/iter281.jpg)
+![image](/matlab/pics/iter281.jpg){:height='100px' width='100px'}
 #### iteration301
-![image](/matlab/pics/iter301.jpg)
+![image](/matlab/pics/iter301.jpg){:height='100px' width='100px'}
 #### iteration321
-![image](/matlab/pics/iter321.jpg)
+![image](/matlab/pics/iter321.jpg){:height='100px' width='100px'}
 #### iteration341
-![image](/matlab/pics/iter341.jpg)
+![image](/matlab/pics/iter341.jpg){:height='100px' width='100px'}
 #### iteration361
-![image](/matlab/pics/iter361.jpg)
+![image](/matlab/pics/iter361.jpg){:height='100px' width='100px'}
 #### iteration381
-![image](/matlab/pics/iter381.jpg)
+![image](/matlab/pics/iter381.jpg){:height='100px' width='100px'}
 #### iteration401
-![image](/matlab/pics/iter401.jpg)
+![image](/matlab/pics/iter401.jpg){:height='100px' width='100px'}
 #### iteration421
-![image](/matlab/pics/iter421.jpg)
+![image](/matlab/pics/iter421.jpg){:height='100px' width='100px'}
 #### iteration441
-![image](/matlab/pics/iter441.jpg)
+![image](/matlab/pics/iter441.jpg){:height='100px' width='100px'}
 #### iteration461
-![image](/matlab/pics/iter461.jpg)
+![image](/matlab/pics/iter461.jpg){:height='100px' width='100px'}
 #### iteration481
-![image](/matlab/pics/iter481.jpg)
+![image](/matlab/pics/iter481.jpg){:height='100px' width='100px'}
 #### iteration501
-![image](/matlab/pics/iter501.jpg)
+![image](/matlab/pics/iter501.jpg){:height='100px' width='100px'}
 #### iteration521
-![image](/matlab/pics/iter521.jpg)
+![image](/matlab/pics/iter521.jpg){:height='100px' width='100px'}
 #### iteration541
-![image](/matlab/pics/iter541.jpg)
+![image](/matlab/pics/iter541.jpg){:height='100px' width='100px'}
 #### iteration561
-![image](/matlab/pics/iter561.jpg)
+![image](/matlab/pics/iter561.jpg){:height='100px' width='100px'}
 #### iteration581
-![image](/matlab/pics/iter581.jpg)
+![image](/matlab/pics/iter581.jpg){:height='100px' width='100px'}
 #### iteration601
-![image](/matlab/pics/iter601.jpg)
+![image](/matlab/pics/iter601.jpg){:height='100px' width='100px'}
 #### iteration621
-![image](/matlab/pics/iter621.jpg)
+![image](/matlab/pics/iter621.jpg){:height='100px' width='100px'}
 #### iteration641
-![image](/matlab/pics/iter641.jpg)
+![image](/matlab/pics/iter641.jpg){:height='100px' width='100px'}
 #### iteration661
-![image](/matlab/pics/iter661.jpg)
+![image](/matlab/pics/iter661.jpg){:height='100px' width='100px'}
 #### iteration681
-![image](/matlab/pics/iter681.jpg)
+![image](/matlab/pics/iter681.jpg){:height='100px' width='100px'}
 #### iteration701
-![image](/matlab/pics/iter701.jpg)
+![image](/matlab/pics/iter701.jpg){:height='100px' width='100px'}
 #### iteration721
-![image](/matlab/pics/iter721.jpg)
+![image](/matlab/pics/iter721.jpg){:height='100px' width='100px'}
 #### iteration741
-![image](/matlab/pics/iter741.jpg)
+![image](/matlab/pics/iter741.jpg){:height='100px' width='100px'}
 #### iteration761
-![image](/matlab/pics/iter761.jpg)
+![image](/matlab/pics/iter761.jpg){:height='100px' width='100px'}
 #### iteration781
-![image](/matlab/pics/iter781.jpg)
+![image](/matlab/pics/iter781.jpg){:height='100px' width='100px'}
 #### iteration801
-![image](/matlab/pics/iter801.jpg)
+![image](/matlab/pics/iter801.jpg){:height='100px' width='100px'}
 #### iteration821
-![image](/matlab/pics/iter821.jpg)
+![image](/matlab/pics/iter821.jpg){:height='100px' width='100px'}
 #### iteration841
-![image](/matlab/pics/iter841.jpg)
+![image](/matlab/pics/iter841.jpg){:height='100px' width='100px'}
 #### iteration861
-![image](/matlab/pics/iter861.jpg)
+![image](/matlab/pics/iter861.jpg){:height='100px' width='100px'}
 #### iteration881
-![image](/matlab/pics/iter881.jpg)
+![image](/matlab/pics/iter881.jpg){:height='100px' width='100px'}
 #### iteration901
-![image](/matlab/pics/iter901.jpg)
+![image](/matlab/pics/iter901.jpg){:height='100px' width='100px'}
 #### iteration921
-![image](/matlab/pics/iter921.jpg)
+![image](/matlab/pics/iter921.jpg){:height='100px' width='100px'}
 #### iteration941
-![image](/matlab/pics/iter941.jpg)
+![image](/matlab/pics/iter941.jpg){:height='100px' width='100px'}
 #### iteration961
-![image](/matlab/pics/iter961.jpg)
+![image](/matlab/pics/iter961.jpg){:height='100px' width='100px'}
 #### iteration981
-![image](/matlab/pics/iter981.jpg)
+![image](/matlab/pics/iter981.jpg){:height='100px' width='100px'}
 #### iteration1001
-![image](/matlab/pics/iter1001.jpg)
+![image](/matlab/pics/iter1001.jpg){:height='100px' width='100px'}
 #### iteration1021
-![image](/matlab/pics/iter1021.jpg)
+![image](/matlab/pics/iter1021.jpg){:height='100px' width='100px'}
 #### iteration1041
-![image](/matlab/pics/iter1041.jpg)
+![image](/matlab/pics/iter1041.jpg){:height='100px' width='100px'}
 #### iteration1061
-![image](/matlab/pics/iter1061.jpg)
+![image](/matlab/pics/iter1061.jpg){:height='100px' width='100px'}
 #### iteration1081
-![image](/matlab/pics/iter1081.jpg)
+![image](/matlab/pics/iter1081.jpg){:height='100px' width='100px'}
 #### iteration1101
-![image](/matlab/pics/iter1101.jpg)
+![image](/matlab/pics/iter1101.jpg){:height='100px' width='100px'}
 #### iteration1121
-![image](/matlab/pics/iter1121.jpg)
+![image](/matlab/pics/iter1121.jpg){:height='100px' width='100px'}
 #### iteration1141
-![image](/matlab/pics/iter1141.jpg)
+![image](/matlab/pics/iter1141.jpg){:height='100px' width='100px'}
 #### iteration1161
-![image](/matlab/pics/iter1161.jpg)
+![image](/matlab/pics/iter1161.jpg){:height='100px' width='100px'}
 #### iteration1181
-![image](/matlab/pics/iter1181.jpg)
+![image](/matlab/pics/iter1181.jpg){:height='100px' width='100px'}
 #### iteration1201
-![image](/matlab/pics/iter1201.jpg)
+![image](/matlab/pics/iter1201.jpg){:height='100px' width='100px'}
 #### iteration1221
-![image](/matlab/pics/iter1221.jpg)
+![image](/matlab/pics/iter1221.jpg){:height='100px' width='100px'}
 #### iteration1241
-![image](/matlab/pics/iter1241.jpg)
+![image](/matlab/pics/iter1241.jpg){:height='100px' width='100px'}
 #### iteration1261
-![image](/matlab/pics/iter1261.jpg)
+![image](/matlab/pics/iter1261.jpg){:height='100px' width='100px'}
 #### iteration1281
-![image](/matlab/pics/iter1281.jpg)
+![image](/matlab/pics/iter1281.jpg){:height='100px' width='100px'}
 #### iteration1301
-![image](/matlab/pics/iter1301.jpg)
+![image](/matlab/pics/iter1301.jpg){:height='100px' width='100px'}
 #### iteration1321
-![image](/matlab/pics/iter1321.jpg)
+![image](/matlab/pics/iter1321.jpg){:height='100px' width='100px'}
 #### iteration1341
-![image](/matlab/pics/iter1341.jpg)
+![image](/matlab/pics/iter1341.jpg){:height='100px' width='100px'}
 #### iteration1361
-![image](/matlab/pics/iter1361.jpg)
+![image](/matlab/pics/iter1361.jpg){:height='100px' width='100px'}
 #### iteration1381
-![image](/matlab/pics/iter1381.jpg)
+![image](/matlab/pics/iter1381.jpg){:height='100px' width='100px'}
 #### iteration1401
-![image](/matlab/pics/iter1401.jpg)
+![image](/matlab/pics/iter1401.jpg){:height='100px' width='100px'}
 #### iteration1421
-![image](/matlab/pics/iter1421.jpg)
+![image](/matlab/pics/iter1421.jpg){:height='100px' width='100px'}
 #### iteration1441
-![image](/matlab/pics/iter1441.jpg)
+![image](/matlab/pics/iter1441.jpg){:height='100px' width='100px'}
 #### iteration1461
-![image](/matlab/pics/iter1461.jpg)
+![image](/matlab/pics/iter1461.jpg){:height='100px' width='100px'}
 #### iteration1481
-![image](/matlab/pics/iter1481.jpg)
+![image](/matlab/pics/iter1481.jpg){:height='100px' width='100px'}
 #### iteration1501
-![image](/matlab/pics/iter1501.jpg)
+![image](/matlab/pics/iter1501.jpg){:height='100px' width='100px'}
 #### iteration1521
-![image](/matlab/pics/iter1521.jpg)
+![image](/matlab/pics/iter1521.jpg){:height='100px' width='100px'}
 #### iteration1541
-![image](/matlab/pics/iter1541.jpg)
+![image](/matlab/pics/iter1541.jpg){:height='100px' width='100px'}
 #### iteration1561
-![image](/matlab/pics/iter1561.jpg)
+![image](/matlab/pics/iter1561.jpg){:height='100px' width='100px'}
 #### iteration1581
-![image](/matlab/pics/iter1581.jpg)
+![image](/matlab/pics/iter1581.jpg){:height='100px' width='100px'}
 #### iteration1601
-![image](/matlab/pics/iter1601.jpg)
+![image](/matlab/pics/iter1601.jpg){:height='100px' width='100px'}
 #### iteration1621
-![image](/matlab/pics/iter1621.jpg)
+![image](/matlab/pics/iter1621.jpg){:height='100px' width='100px'}
 #### iteration1641
-![image](/matlab/pics/iter1641.jpg)
+![image](/matlab/pics/iter1641.jpg){:height='100px' width='100px'}
 #### iteration1661
-![image](/matlab/pics/iter1661.jpg)
+![image](/matlab/pics/iter1661.jpg){:height='100px' width='100px'}
 #### iteration1681
-![image](/matlab/pics/iter1681.jpg)
+![image](/matlab/pics/iter1681.jpg){:height='100px' width='100px'}
 #### iteration1701
-![image](/matlab/pics/iter1701.jpg)
+![image](/matlab/pics/iter1701.jpg){:height='100px' width='100px'}
 #### iteration1721
-![image](/matlab/pics/iter1721.jpg)
+![image](/matlab/pics/iter1721.jpg){:height='100px' width='100px'}
 #### iteration1741
-![image](/matlab/pics/iter1741.jpg)
+![image](/matlab/pics/iter1741.jpg){:height='100px' width='100px'}
 #### iteration1761
-![image](/matlab/pics/iter1761.jpg)
+![image](/matlab/pics/iter1761.jpg){:height='100px' width='100px'}
 #### iteration1781
-![image](/matlab/pics/iter1781.jpg)
+![image](/matlab/pics/iter1781.jpg){:height='100px' width='100px'}
 #### iteration1801
-![image](/matlab/pics/iter1801.jpg)
+![image](/matlab/pics/iter1801.jpg){:height='100px' width='100px'}
 #### iteration1821
-![image](/matlab/pics/iter1821.jpg)
+![image](/matlab/pics/iter1821.jpg){:height='100px' width='100px'}
 #### iteration1841
-![image](/matlab/pics/iter1841.jpg)
+![image](/matlab/pics/iter1841.jpg){:height='100px' width='100px'}
 #### iteration1861
-![image](/matlab/pics/iter1861.jpg)
+![image](/matlab/pics/iter1861.jpg){:height='100px' width='100px'}
 #### iteration1881
-![image](/matlab/pics/iter1881.jpg)
+![image](/matlab/pics/iter1881.jpg){:height='100px' width='100px'}
 #### iteration1901
-![image](/matlab/pics/iter1901.jpg)
+![image](/matlab/pics/iter1901.jpg){:height='100px' width='100px'}
 #### iteration1921
-![image](/matlab/pics/iter1921.jpg)
+![image](/matlab/pics/iter1921.jpg){:height='100px' width='100px'}
 #### iteration1941
-![image](/matlab/pics/iter1941.jpg)
+![image](/matlab/pics/iter1941.jpg){:height='100px' width='100px'}
 #### iteration1961
-![image](/matlab/pics/iter1961.jpg)
+![image](/matlab/pics/iter1961.jpg){:height='100px' width='100px'}
 #### iteration1981
-![image](/matlab/pics/iter1981.jpg)
+![image](/matlab/pics/iter1981.jpg){:height='100px' width='100px'}
 #### iteration2001
-![image](/matlab/pics/iter2001.jpg)
+![image](/matlab/pics/iter2001.jpg){:height='100px' width='100px'}
 #### iteration2021
-![image](/matlab/pics/iter2021.jpg)
+![image](/matlab/pics/iter2021.jpg){:height='100px' width='100px'}
 #### iteration2041
-![image](/matlab/pics/iter2041.jpg)
+![image](/matlab/pics/iter2041.jpg){:height='100px' width='100px'}
 #### iteration2061
-![image](/matlab/pics/iter2061.jpg)
+![image](/matlab/pics/iter2061.jpg){:height='100px' width='100px'}
 #### iteration2081
-![image](/matlab/pics/iter2081.jpg)
+![image](/matlab/pics/iter2081.jpg){:height='100px' width='100px'}
 #### iteration2101
-![image](/matlab/pics/iter2101.jpg)
+![image](/matlab/pics/iter2101.jpg){:height='100px' width='100px'}
 #### iteration2121
-![image](/matlab/pics/iter2121.jpg)
+![image](/matlab/pics/iter2121.jpg){:height='100px' width='100px'}
 #### iteration2141
-![image](/matlab/pics/iter2141.jpg)
+![image](/matlab/pics/iter2141.jpg){:height='100px' width='100px'}
 #### iteration2161
-![image](/matlab/pics/iter2161.jpg)
+![image](/matlab/pics/iter2161.jpg){:height='100px' width='100px'}
 #### iteration2181
-![image](/matlab/pics/iter2181.jpg)
+![image](/matlab/pics/iter2181.jpg){:height='100px' width='100px'}
 #### iteration2201
-![image](/matlab/pics/iter2201.jpg)
+![image](/matlab/pics/iter2201.jpg){:height='100px' width='100px'}
 #### iteration2221
-![image](/matlab/pics/iter2221.jpg)
+![image](/matlab/pics/iter2221.jpg){:height='100px' width='100px'}
 #### iteration2241
-![image](/matlab/pics/iter2241.jpg)
+![image](/matlab/pics/iter2241.jpg){:height='100px' width='100px'}
 #### iteration2261
-![image](/matlab/pics/iter2261.jpg)
+![image](/matlab/pics/iter2261.jpg){:height='100px' width='100px'}
 #### iteration2281
-![image](/matlab/pics/iter2281.jpg)
+![image](/matlab/pics/iter2281.jpg){:height='100px' width='100px'}
 #### iteration2301
-![image](/matlab/pics/iter2301.jpg)
+![image](/matlab/pics/iter2301.jpg){:height='100px' width='100px'}
 #### iteration2321
-![image](/matlab/pics/iter2321.jpg)
+![image](/matlab/pics/iter2321.jpg){:height='100px' width='100px'}
 #### iteration2341
-![image](/matlab/pics/iter2341.jpg)
+![image](/matlab/pics/iter2341.jpg){:height='100px' width='100px'}
 #### iteration2361
-![image](/matlab/pics/iter2361.jpg)
+![image](/matlab/pics/iter2361.jpg){:height='100px' width='100px'}
 #### iteration2381
-![image](/matlab/pics/iter2381.jpg)
+![image](/matlab/pics/iter2381.jpg){:height='100px' width='100px'}
 #### iteration2401
-![image](/matlab/pics/iter2401.jpg)
+![image](/matlab/pics/iter2401.jpg){:height='100px' width='100px'}
 #### iteration2421
-![image](/matlab/pics/iter2421.jpg)
+![image](/matlab/pics/iter2421.jpg){:height='100px' width='100px'}
 #### iteration2441
-![image](/matlab/pics/iter2441.jpg)
+![image](/matlab/pics/iter2441.jpg){:height='100px' width='100px'}
 #### iteration2461
-![image](/matlab/pics/iter2461.jpg)
+![image](/matlab/pics/iter2461.jpg){:height='100px' width='100px'}
 #### iteration2481
-![image](/matlab/pics/iter2481.jpg)
+![image](/matlab/pics/iter2481.jpg){:height='100px' width='100px'}
 #### iteration2501
-![image](/matlab/pics/iter2501.jpg)
+![image](/matlab/pics/iter2501.jpg){:height='100px' width='100px'}
 #### iteration2521
-![image](/matlab/pics/iter2521.jpg)
+![image](/matlab/pics/iter2521.jpg){:height='100px' width='100px'}
 #### iteration2541
-![image](/matlab/pics/iter2541.jpg)
+![image](/matlab/pics/iter2541.jpg){:height='100px' width='100px'}
 #### iteration2561
-![image](/matlab/pics/iter2561.jpg)
+![image](/matlab/pics/iter2561.jpg){:height='100px' width='100px'}
 #### iteration2581
-![image](/matlab/pics/iter2581.jpg)
+![image](/matlab/pics/iter2581.jpg){:height='100px' width='100px'}
 #### iteration2601
-![image](/matlab/pics/iter2601.jpg)
+![image](/matlab/pics/iter2601.jpg){:height='100px' width='100px'}
 #### iteration2621
-![image](/matlab/pics/iter2621.jpg)
+![image](/matlab/pics/iter2621.jpg){:height='100px' width='100px'}
 #### iteration2641
-![image](/matlab/pics/iter2641.jpg)
+![image](/matlab/pics/iter2641.jpg){:height='100px' width='100px'}
 #### iteration2661
-![image](/matlab/pics/iter2661.jpg)
+![image](/matlab/pics/iter2661.jpg){:height='100px' width='100px'}
 #### iteration2681
-![image](/matlab/pics/iter2681.jpg)
+![image](/matlab/pics/iter2681.jpg){:height='100px' width='100px'}
 #### iteration2701
-![image](/matlab/pics/iter2701.jpg)
+![image](/matlab/pics/iter2701.jpg){:height='100px' width='100px'}
 #### iteration2721
-![image](/matlab/pics/iter2721.jpg)
+![image](/matlab/pics/iter2721.jpg){:height='100px' width='100px'}
 #### iteration2741
-![image](/matlab/pics/iter2741.jpg)
+![image](/matlab/pics/iter2741.jpg){:height='100px' width='100px'}
 #### iteration2761
-![image](/matlab/pics/iter2761.jpg)
+![image](/matlab/pics/iter2761.jpg){:height='100px' width='100px'}
 #### iteration2781
-![image](/matlab/pics/iter2781.jpg)
+![image](/matlab/pics/iter2781.jpg){:height='100px' width='100px'}
 #### iteration2801
-![image](/matlab/pics/iter2801.jpg)
+![image](/matlab/pics/iter2801.jpg){:height='100px' width='100px'}
 #### iteration2821
-![image](/matlab/pics/iter2821.jpg)
+![image](/matlab/pics/iter2821.jpg){:height='100px' width='100px'}
 #### iteration2841
-![image](/matlab/pics/iter2841.jpg)
+![image](/matlab/pics/iter2841.jpg){:height='100px' width='100px'}
 #### iteration2861
-![image](/matlab/pics/iter2861.jpg)
+![image](/matlab/pics/iter2861.jpg){:height='100px' width='100px'}
 #### iteration2881
-![image](/matlab/pics/iter2881.jpg)
+![image](/matlab/pics/iter2881.jpg){:height='100px' width='100px'}
 #### iteration2901
-![image](/matlab/pics/iter2901.jpg)
+![image](/matlab/pics/iter2901.jpg){:height='100px' width='100px'}
 #### iteration2921
-![image](/matlab/pics/iter2921.jpg)
+![image](/matlab/pics/iter2921.jpg){:height='100px' width='100px'}
 #### iteration2941
-![image](/matlab/pics/iter2941.jpg)
+![image](/matlab/pics/iter2941.jpg){:height='100px' width='100px'}
 #### iteration2961
-![image](/matlab/pics/iter2961.jpg)
+![image](/matlab/pics/iter2961.jpg){:height='100px' width='100px'}
 #### iteration2981
-![image](/matlab/pics/iter2981.jpg)
+![image](/matlab/pics/iter2981.jpg){:height='100px' width='100px'}
 #### iteration3001
-![image](/matlab/pics/iter3001.jpg)
+![image](/matlab/pics/iter3001.jpg){:height='100px' width='100px'}
 #### iteration3021
-![image](/matlab/pics/iter3021.jpg)
+![image](/matlab/pics/iter3021.jpg){:height='100px' width='100px'}
 #### iteration3041
-![image](/matlab/pics/iter3041.jpg)
+![image](/matlab/pics/iter3041.jpg){:height='100px' width='100px'}
 #### iteration3061
-![image](/matlab/pics/iter3061.jpg)
+![image](/matlab/pics/iter3061.jpg){:height='100px' width='100px'}
 #### iteration3081
-![image](/matlab/pics/iter3081.jpg)
+![image](/matlab/pics/iter3081.jpg){:height='100px' width='100px'}
 #### iteration3101
-![image](/matlab/pics/iter3101.jpg)
+![image](/matlab/pics/iter3101.jpg){:height='100px' width='100px'}
 #### iteration3121
-![image](/matlab/pics/iter3121.jpg)
+![image](/matlab/pics/iter3121.jpg){:height='100px' width='100px'}
 #### iteration3141
-![image](/matlab/pics/iter3141.jpg)
+![image](/matlab/pics/iter3141.jpg){:height='100px' width='100px'}
 #### iteration3161
-![image](/matlab/pics/iter3161.jpg)
+![image](/matlab/pics/iter3161.jpg){:height='100px' width='100px'}
 #### iteration3181
-![image](/matlab/pics/iter3181.jpg)
+![image](/matlab/pics/iter3181.jpg){:height='100px' width='100px'}
 #### iteration3201
-![image](/matlab/pics/iter3201.jpg)
+![image](/matlab/pics/iter3201.jpg){:height='100px' width='100px'}
 #### iteration3221
-![image](/matlab/pics/iter3221.jpg)
+![image](/matlab/pics/iter3221.jpg){:height='100px' width='100px'}
 #### iteration3241
-![image](/matlab/pics/iter3241.jpg)
+![image](/matlab/pics/iter3241.jpg){:height='100px' width='100px'}
 #### iteration3261
-![image](/matlab/pics/iter3261.jpg)
+![image](/matlab/pics/iter3261.jpg){:height='100px' width='100px'}
 #### iteration3281
-![image](/matlab/pics/iter3281.jpg)
+![image](/matlab/pics/iter3281.jpg){:height='100px' width='100px'}
 #### iteration3301
-![image](/matlab/pics/iter3301.jpg)
+![image](/matlab/pics/iter3301.jpg){:height='100px' width='100px'}
 #### iteration3321
-![image](/matlab/pics/iter3321.jpg)
+![image](/matlab/pics/iter3321.jpg){:height='100px' width='100px'}
 #### iteration3341
-![image](/matlab/pics/iter3341.jpg)
+![image](/matlab/pics/iter3341.jpg){:height='100px' width='100px'}
 #### iteration3361
-![image](/matlab/pics/iter3361.jpg)
+![image](/matlab/pics/iter3361.jpg){:height='100px' width='100px'}
 #### iteration3381
-![image](/matlab/pics/iter3381.jpg)
+![image](/matlab/pics/iter3381.jpg){:height='100px' width='100px'}
 #### iteration3401
-![image](/matlab/pics/iter3401.jpg)
+![image](/matlab/pics/iter3401.jpg){:height='100px' width='100px'}
 #### iteration3421
-![image](/matlab/pics/iter3421.jpg)
+![image](/matlab/pics/iter3421.jpg){:height='100px' width='100px'}
 #### iteration3441
-![image](/matlab/pics/iter3441.jpg)
+![image](/matlab/pics/iter3441.jpg){:height='100px' width='100px'}
 #### iteration3461
-![image](/matlab/pics/iter3461.jpg)
+![image](/matlab/pics/iter3461.jpg){:height='100px' width='100px'}
 #### iteration3481
-![image](/matlab/pics/iter3481.jpg)
+![image](/matlab/pics/iter3481.jpg){:height='100px' width='100px'}
 #### iteration3501
-![image](/matlab/pics/iter3501.jpg)
+![image](/matlab/pics/iter3501.jpg){:height='100px' width='100px'}
 #### iteration3521
-![image](/matlab/pics/iter3521.jpg)
+![image](/matlab/pics/iter3521.jpg){:height='100px' width='100px'}
 #### iteration3541
-![image](/matlab/pics/iter3541.jpg)
+![image](/matlab/pics/iter3541.jpg){:height='100px' width='100px'}
 #### iteration3561
-![image](/matlab/pics/iter3561.jpg)
+![image](/matlab/pics/iter3561.jpg){:height='100px' width='100px'}
 #### iteration3581
-![image](/matlab/pics/iter3581.jpg)
+![image](/matlab/pics/iter3581.jpg){:height='100px' width='100px'}
 #### iteration3601
-![image](/matlab/pics/iter3601.jpg)
+![image](/matlab/pics/iter3601.jpg){:height='100px' width='100px'}
 #### iteration3621
-![image](/matlab/pics/iter3621.jpg)
+![image](/matlab/pics/iter3621.jpg){:height='100px' width='100px'}
 #### iteration3641
-![image](/matlab/pics/iter3641.jpg)
+![image](/matlab/pics/iter3641.jpg){:height='100px' width='100px'}
 #### iteration3661
-![image](/matlab/pics/iter3661.jpg)
+![image](/matlab/pics/iter3661.jpg){:height='100px' width='100px'}
 #### iteration3681
-![image](/matlab/pics/iter3681.jpg)
+![image](/matlab/pics/iter3681.jpg){:height='100px' width='100px'}
 #### iteration3701
-![image](/matlab/pics/iter3701.jpg)
+![image](/matlab/pics/iter3701.jpg){:height='100px' width='100px'}
 #### iteration3721
-![image](/matlab/pics/iter3721.jpg)
+![image](/matlab/pics/iter3721.jpg){:height='100px' width='100px'}
 #### iteration3741
-![image](/matlab/pics/iter3741.jpg)
+![image](/matlab/pics/iter3741.jpg){:height='100px' width='100px'}
 #### iteration3761
-![image](/matlab/pics/iter3761.jpg)
+![image](/matlab/pics/iter3761.jpg){:height='100px' width='100px'}
 #### iteration3781
-![image](/matlab/pics/iter3781.jpg)
+![image](/matlab/pics/iter3781.jpg){:height='100px' width='100px'}
 #### iteration3801
-![image](/matlab/pics/iter3801.jpg)
+![image](/matlab/pics/iter3801.jpg){:height='100px' width='100px'}
 #### iteration3821
-![image](/matlab/pics/iter3821.jpg)
+![image](/matlab/pics/iter3821.jpg){:height='100px' width='100px'}
 #### iteration3841
-![image](/matlab/pics/iter3841.jpg)
+![image](/matlab/pics/iter3841.jpg){:height='100px' width='100px'}
 #### iteration3861
-![image](/matlab/pics/iter3861.jpg)
+![image](/matlab/pics/iter3861.jpg){:height='100px' width='100px'}
 #### iteration3881
-![image](/matlab/pics/iter3881.jpg)
+![image](/matlab/pics/iter3881.jpg){:height='100px' width='100px'}
 #### iteration3901
-![image](/matlab/pics/iter3901.jpg)
+![image](/matlab/pics/iter3901.jpg){:height='100px' width='100px'}
 #### iteration3921
-![image](/matlab/pics/iter3921.jpg)
+![image](/matlab/pics/iter3921.jpg){:height='100px' width='100px'}
 #### iteration3941
-![image](/matlab/pics/iter3941.jpg)
+![image](/matlab/pics/iter3941.jpg){:height='100px' width='100px'}
 #### iteration3961
-![image](/matlab/pics/iter3961.jpg)
+![image](/matlab/pics/iter3961.jpg){:height='100px' width='100px'}
 #### iteration3981
-![image](/matlab/pics/iter3981.jpg)
+![image](/matlab/pics/iter3981.jpg){:height='100px' width='100px'}
 #### iteration4001
-![image](/matlab/pics/iter4001.jpg)
+![image](/matlab/pics/iter4001.jpg){:height='100px' width='100px'}
 #### iteration4021
-![image](/matlab/pics/iter4021.jpg)
+![image](/matlab/pics/iter4021.jpg){:height='100px' width='100px'}
 #### iteration4041
-![image](/matlab/pics/iter4041.jpg)
+![image](/matlab/pics/iter4041.jpg){:height='100px' width='100px'}
 #### iteration4061
-![image](/matlab/pics/iter4061.jpg)
+![image](/matlab/pics/iter4061.jpg){:height='100px' width='100px'}
 #### iteration4081
-![image](/matlab/pics/iter4081.jpg)
+![image](/matlab/pics/iter4081.jpg){:height='100px' width='100px'}
 #### iteration4101
-![image](/matlab/pics/iter4101.jpg)
+![image](/matlab/pics/iter4101.jpg){:height='100px' width='100px'}
 #### iteration4121
-![image](/matlab/pics/iter4121.jpg)
+![image](/matlab/pics/iter4121.jpg){:height='100px' width='100px'}
 #### iteration4141
-![image](/matlab/pics/iter4141.jpg)
+![image](/matlab/pics/iter4141.jpg){:height='100px' width='100px'}
 #### iteration4161
-![image](/matlab/pics/iter4161.jpg)
+![image](/matlab/pics/iter4161.jpg){:height='100px' width='100px'}
 #### iteration4181
-![image](/matlab/pics/iter4181.jpg)
+![image](/matlab/pics/iter4181.jpg){:height='100px' width='100px'}
 #### iteration4201
-![image](/matlab/pics/iter4201.jpg)
+![image](/matlab/pics/iter4201.jpg){:height='100px' width='100px'}
 #### iteration4221
-![image](/matlab/pics/iter4221.jpg)
+![image](/matlab/pics/iter4221.jpg){:height='100px' width='100px'}
 #### iteration4241
-![image](/matlab/pics/iter4241.jpg)
+![image](/matlab/pics/iter4241.jpg){:height='100px' width='100px'}
 #### iteration4261
-![image](/matlab/pics/iter4261.jpg)
+![image](/matlab/pics/iter4261.jpg){:height='100px' width='100px'}
 #### iteration4281
-![image](/matlab/pics/iter4281.jpg)
+![image](/matlab/pics/iter4281.jpg){:height='100px' width='100px'}
 #### iteration4301
-![image](/matlab/pics/iter4301.jpg)
+![image](/matlab/pics/iter4301.jpg){:height='100px' width='100px'}
 #### iteration4321
-![image](/matlab/pics/iter4321.jpg)
+![image](/matlab/pics/iter4321.jpg){:height='100px' width='100px'}
 #### iteration4341
-![image](/matlab/pics/iter4341.jpg)
+![image](/matlab/pics/iter4341.jpg){:height='100px' width='100px'}
 #### iteration4361
-![image](/matlab/pics/iter4361.jpg)
+![image](/matlab/pics/iter4361.jpg){:height='100px' width='100px'}
 #### iteration4381
-![image](/matlab/pics/iter4381.jpg)
+![image](/matlab/pics/iter4381.jpg){:height='100px' width='100px'}
 #### iteration4401
-![image](/matlab/pics/iter4401.jpg)
+![image](/matlab/pics/iter4401.jpg){:height='100px' width='100px'}
 #### iteration4421
-![image](/matlab/pics/iter4421.jpg)
+![image](/matlab/pics/iter4421.jpg){:height='100px' width='100px'}
 #### iteration4441
-![image](/matlab/pics/iter4441.jpg)
+![image](/matlab/pics/iter4441.jpg){:height='100px' width='100px'}
 #### iteration4461
-![image](/matlab/pics/iter4461.jpg)
+![image](/matlab/pics/iter4461.jpg){:height='100px' width='100px'}
 #### iteration4481
-![image](/matlab/pics/iter4481.jpg)
+![image](/matlab/pics/iter4481.jpg){:height='100px' width='100px'}
 #### iteration4501
-![image](/matlab/pics/iter4501.jpg)
+![image](/matlab/pics/iter4501.jpg){:height='100px' width='100px'}
 #### iteration4521
-![image](/matlab/pics/iter4521.jpg)
+![image](/matlab/pics/iter4521.jpg){:height='100px' width='100px'}
 #### iteration4541
-![image](/matlab/pics/iter4541.jpg)
+![image](/matlab/pics/iter4541.jpg){:height='100px' width='100px'}
 #### iteration4561
-![image](/matlab/pics/iter4561.jpg)
+![image](/matlab/pics/iter4561.jpg){:height='100px' width='100px'}
 #### iteration4581
-![image](/matlab/pics/iter4581.jpg)
+![image](/matlab/pics/iter4581.jpg){:height='100px' width='100px'}
 #### iteration4601
-![image](/matlab/pics/iter4601.jpg)
+![image](/matlab/pics/iter4601.jpg){:height='100px' width='100px'}
 #### iteration4621
-![image](/matlab/pics/iter4621.jpg)
+![image](/matlab/pics/iter4621.jpg){:height='100px' width='100px'}
 #### iteration4641
-![image](/matlab/pics/iter4641.jpg)
+![image](/matlab/pics/iter4641.jpg){:height='100px' width='100px'}
 #### iteration4661
-![image](/matlab/pics/iter4661.jpg)
+![image](/matlab/pics/iter4661.jpg){:height='100px' width='100px'}
 #### iteration4681
-![image](/matlab/pics/iter4681.jpg)
+![image](/matlab/pics/iter4681.jpg){:height='100px' width='100px'}
 #### iteration4701
-![image](/matlab/pics/iter4701.jpg)
+![image](/matlab/pics/iter4701.jpg){:height='100px' width='100px'}
 #### iteration4721
-![image](/matlab/pics/iter4721.jpg)
+![image](/matlab/pics/iter4721.jpg){:height='100px' width='100px'}
 #### iteration4741
-![image](/matlab/pics/iter4741.jpg)
+![image](/matlab/pics/iter4741.jpg){:height='100px' width='100px'}
 #### iteration4761
-![image](/matlab/pics/iter4761.jpg)
+![image](/matlab/pics/iter4761.jpg){:height='100px' width='100px'}
 #### iteration4781
-![image](/matlab/pics/iter4781.jpg)
+![image](/matlab/pics/iter4781.jpg){:height='100px' width='100px'}
 #### iteration4801
-![image](/matlab/pics/iter4801.jpg)
+![image](/matlab/pics/iter4801.jpg){:height='100px' width='100px'}
 #### iteration4821
-![image](/matlab/pics/iter4821.jpg)
+![image](/matlab/pics/iter4821.jpg){:height='100px' width='100px'}
 #### iteration4841
-![image](/matlab/pics/iter4841.jpg)
+![image](/matlab/pics/iter4841.jpg){:height='100px' width='100px'}
 #### iteration4861
-![image](/matlab/pics/iter4861.jpg)
+![image](/matlab/pics/iter4861.jpg){:height='100px' width='100px'}
 #### iteration4881
-![image](/matlab/pics/iter4881.jpg)
+![image](/matlab/pics/iter4881.jpg){:height='100px' width='100px'}
 #### iteration4901
-![image](/matlab/pics/iter4901.jpg)
+![image](/matlab/pics/iter4901.jpg){:height='100px' width='100px'}
 #### iteration4921
-![image](/matlab/pics/iter4921.jpg)
+![image](/matlab/pics/iter4921.jpg){:height='100px' width='100px'}
 #### iteration4941
-![image](/matlab/pics/iter4941.jpg)
+![image](/matlab/pics/iter4941.jpg){:height='100px' width='100px'}
 #### iteration4961
-![image](/matlab/pics/iter4961.jpg)
+![image](/matlab/pics/iter4961.jpg){:height='100px' width='100px'}
 #### iteration4981
-![image](/matlab/pics/iter4981.jpg)
+![image](/matlab/pics/iter4981.jpg){:height='100px' width='100px'}
 #### iteration5001
-![image](/matlab/pics/iter5001.jpg)
+![image](/matlab/pics/iter5001.jpg){:height='100px' width='100px'}
