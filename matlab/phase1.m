@@ -1,6 +1,13 @@
 clc;
 clear all;
 close all;
+
+file = fopen("pics/readme.md",'w');
+for i=1:20:5001
+    fprintf(file,"####iteration"+num2str(i)+"\n");
+    fprintf(file,"!(/pics/iter"+num2str(i)+".jpg)"+"\n");
+end
+fclose(file);
 %% initialization
 freq=3*1e9;    
 c=3*1e8;

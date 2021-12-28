@@ -1,13 +1,17 @@
 clc;
 clear all;
 close all;
+
+file = fopen("pics/readme.md",'w');
+fo
+fprintf("")
 %% initialization
 freq=3*1e9;    
 c=3*1e8;
 lambda=c/freq;  
 k0=(2*pi)/lambda;
-mx=;
-ny=10;
+mx=20;
+ny=20;
 dx=lambda;           
 dy=lambda;           
 M_X= -((mx-1)/2)*dx:dx:((mx-1)/2)*dx; 
@@ -59,6 +63,8 @@ imagesc(th*180/pi,ph*180/pi,radpat);
 xlabel("theta");
 ylabel("phi");
 colorbar;
+subplot(2,2,4);
+surf(u2,v2,radpat);
 
 %% spherical
 um=zeros(length(ph),length(th));
@@ -71,5 +77,5 @@ for u=1:length(ph)
         rm(u,v) = radpat(u,v)*cos(phi(u));
     end
 end
-figure(2);
+figure(3);
 surf(um,vm,rm);

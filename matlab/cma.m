@@ -76,7 +76,7 @@ phase = 0*(pi/180)*ones(mx,ny);
 amp = 10*ones(mx,ny)/sqrt(100*mx*ny);
 bn = exp(-1i*phase);
 delbn=zeros(mx,ny);
-niter=5000;
+niter=5001;
 k=0;
 elf=zeros(mx,ny,length(ph),length(th));
 for u=1:length(ph)
@@ -87,7 +87,6 @@ end
 filename="pics/test.gif";
 figure(2);
 title("Radiation pattern");
-name = "pics/iter";
 for iter=1:niter
     disp(iter);
     delf=-1000;
@@ -113,8 +112,8 @@ for iter=1:niter
         imagesc(abs(f));
         colorbar();
         pic=gcf;
-        namex = name+num2str(iter)+".jpg";
-        exportgraphics(pic,namex);
+        name = "pics/iter"+num2str(iter)+".jpg";
+        exportgraphics(pic,name);
         drawnow
         frame=getframe(1);
         im=frame2im(frame);
@@ -124,7 +123,8 @@ for iter=1:niter
         else
             imwrite(imind,cm,filename,'gif','WriteMode','append');
         end
+        name="phase/iter"+num2str(iter)+".mat";
+        phasesave = -(180/pi)*angle(bn);
+        save(name,"phasesave");
     end
 end
-phase = -(180/pi)*angle(bn);
-save("phase.mat","phase");
