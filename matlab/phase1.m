@@ -5,7 +5,8 @@ close all;
 file = fopen("pics/readme.md",'w');
 for i=1:20:5001
     fprintf(file,"#### iteration"+num2str(i)+"\n");
-    fprintf(file,"![image](/matlab/pics/iter"+num2str(i)+".jpg)"+"{:height='50%' width='50%'}"+"\n");
+    fprintf(file,"<img src='https://github.com/RohitRadar/RCS-Reduction/tree/main/matlab/pics/iter"+num2str(i)+".jpg' width='100' height='100'");
+    %fprintf(file,"![image](/matlab/pics/iter"+num2str(i)+".jpg)"+"\n");
 end
 fclose(file);
 
