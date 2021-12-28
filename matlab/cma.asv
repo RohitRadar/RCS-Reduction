@@ -66,7 +66,7 @@ for u=1:length(u1)
 end
 %}
 figure(1);
-imagesc(gnabs);
+imagesc(u2,v2,gnabs);
 title("desired gain")
 colorbar();
 pic=gcf;
@@ -81,7 +81,7 @@ k=0;
 elf=zeros(mx,ny,length(ph),length(th));
 for u=1:length(ph)
     for v=1:length(th)
-        elf(:,:,u,v) = ep1(u,v)*amp.*exp(1i*(u1(u,v)*xc+v1(u,v)*yc));
+        elf(:,:,u,v) = ep1(u,v)*amp.*exp(1i*(akx(u,v)*xc+aky(u,v)*yc));
     end
 end 
 filename="pics/test.gif";
