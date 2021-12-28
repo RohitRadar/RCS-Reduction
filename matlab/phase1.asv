@@ -2,9 +2,6 @@ clc;
 clear all;
 close all;
 
-file = fopen("pics/readme.md",'w');
-fo
-fprintf("")
 %% initialization
 freq=3*1e9;    
 c=3*1e8;
