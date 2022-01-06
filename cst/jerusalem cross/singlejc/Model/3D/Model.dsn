@@ -1,20 +1,29 @@
-*** File Version: 17.00
+*** File Version: 20.00
 
 Number of ports: 0
 Portnames:
 Modenumbers:
+Porttypes:
 Portlabels:
 StaticSources:
 ThermalSources:
 FloquetPortNames:
 FloquetPortModes:
+SchematicPortNames:
+SchematicPortLabels:
 Terminals:
+StaticToReferenceTable:
+ThermalToReferenceTable:
 TerminalToReferenceTable:
+PortToReferenceTable:
+FloquetToReferenceTable:
+SchematicToReferenceTable:
 StaticSourceGroups:
 ThermalSourceGroups:
 TerminalSourceGroups:
 PortSourceGroups:
 FloquetPortSourceGroups:
+SchematicPortSourceGroups:
 Number of frequency-points: 0
 Fmin: 1.000000e+09
 Fmax: 1.500000e+10

@@ -50,6 +50,9 @@ for i=1:1:N
     for j=1:1:M
         [val,index]=min(abs(x-phase(i,j)));
         pl(i,j)=file(index,1);
+        if pl(i,j)>=14.8
+            pl(i,j)=14.8;
+        end
     end
 end
 

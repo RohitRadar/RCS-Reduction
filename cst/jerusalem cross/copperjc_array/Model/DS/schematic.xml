@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SchematicTopology Version="2.3" Seed="1" Grid="25">
-    <BasePath>E:/Desktop/Now/rcs/cst/jerusalem cross/copperjc_array/Model/DS</BasePath>
-    <Block ForeignId="31089092" Id="1" Class="MWSSCHEM">
+<SchematicTopology Version="2.5" Seed="1" Grid="25">
+    <Block Id="1" ForeignId="42971685" Class="MWSSCHEM" ImageIndex="1">
         <Size Height="150" Width="150"/>
-        <Image Scale="AutoFit" FileName="E:\Desktop\Now\rcs\cst\jerusalem cross\copperjc_array\Model\3D\Model.dib"/>
-        <Pos X="75" Y="75"/>
+        <Image FileName="../../3D/Model.dib" Scale="AutoFit"/>
+        <Pos X="100" Y="0"/>
         <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
     </Block>
 </SchematicTopology>

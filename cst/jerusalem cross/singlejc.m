@@ -28,8 +28,8 @@ CstFR4lossy(mws)
 wg = 15;
 lg = 15;
 hg = 1;
-hs = 2;
-hp = 1;
+hs = 1.57;
+hp = 0.035;
 pl = 10;
 w = 2;
 pw = 3;

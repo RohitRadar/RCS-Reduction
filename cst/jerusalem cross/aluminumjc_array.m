@@ -27,6 +27,7 @@ CstDefineBackroundMaterial(mws,XminSpace,XmaxSpace, YminSpace, YmaxSpace, ZminSp
 
 CstFR4lossy(mws)
 CstAluminum(mws)
+CstCopperAnnealedLossy(mws)
 
 wg = 300;
 lg = 300;
@@ -51,6 +52,9 @@ for i=1:1:N
     for j=1:1:M
         [val,index]=min(abs(x-phase(i,j)));
         pl(i,j)=file(index,1);
+        if pl(i,j)>=14.8
+            pl(i,j)=14.8;
+        end
     end
 end
 
@@ -83,14 +87,14 @@ for i=1:1:N
         dispy=(lg/2-intery/2) - intery*(i-1);
         Name = ['vert' num2str(i) 'x' num2str(j)];
         component = 'component';
-        material = 'Aluminum';
+        material = 'Copper (annealed)';
         Xrange = dispx+[-w/2 w/2];
         Yrange = dispy+[-PL/2 PL/2];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
         Cstbrick(mws, Name, component, material, Xrange, Yrange, Zrange)
         Name = ['hor' num2str(i) 'x' num2str(j)];
         component = 'component';
-        material = 'Aluminum';
+        material = 'Copper (annealed)';
         Xrange = dispx+[-PL/2 PL/2];
         Yrange = dispy+[-w/2 w/2];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
@@ -98,28 +102,28 @@ for i=1:1:N
         %{
         Name = ['top' num2str(i) 'x' num2str(j)];
         component = 'component';
-        material = 'Aluminum';
+        material = 'Copper (annealed)';
         Xrange = dispx+[-pw/2 pw/2];
         Yrange = dispy+[PL/2 PL/2+t];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
         Cstbrick(mws, Name, component, material, Xrange, Yrange, Zrange)
         Name = ['down' num2str(i) 'x' num2str(j)];
         component = 'component';
-        material = 'Aluminum';
+        material = 'Copper (annealed)';
         Xrange = dispx+[-pw/2 pw/2];
         Yrange = dispy+[-PL/2 -PL/2-t];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
         Cstbrick(mws, Name, component, material, Xrange, Yrange, Zrange)
         Name = ['left' num2str(i) 'x' num2str(j)];
         component = 'component';
-        material = 'Aluminum';
+        material = 'Copper (annealed)';
         Xrange = dispx+[-PL/2-t -PL/2];
         Yrange = dispy+[-pw/2 pw/2];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
         Cstbrick(mws, Name, component, material, Xrange, Yrange, Zrange)
         Name = ['right' num2str(i) 'x' num2str(j)];
         component = 'component';
-        material = 'Aluminum';
+        material = 'Copper (annealed)';
         Xrange = dispx+[PL/2 PL/2+t];
         Yrange = dispy+[-pw/2 pw/2];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
