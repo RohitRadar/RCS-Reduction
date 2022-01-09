@@ -19,7 +19,7 @@ function Cstbrick(mws, Name, component, material, Xrange, Yrange, Zrange)
 % the material you want to use before this one
 % Xrange, Yrange, Zrange = starting and finishing range e.g. [0 10] (integers) 
 
-brick = invoke(mws,'Brick');
+brick = invoke(mws,'define brick');
 invoke(brick,'Reset');
 invoke(brick,'Name',Name);
 invoke(brick,'component',component);

@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2021.1 - Nov 10 2020 - ACIS 30.0.1 -
+[Author]
+Admin
+[Mesh Cells]
+
+[Mesh Type]
+Tetrahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f
+[Results]
+Unavailable
+[Modeler Unique ID]
+5:copperjc.cst?4668e23ff55b6676c7d1b3126feeb8a5?267834:numberofparameters=0::fport=zmin>fmode=1>zre=0>zim=0?fport=zmin>fmode=2>zre=0>zim=0?fport=zmax>fmode=1>zre=0>zim=0?fport=zmax>fmode=2>zre=0>zim=0
+[Comment]
