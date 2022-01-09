@@ -22,7 +22,7 @@ intery = lg/N;
 
 file = load('E:\Desktop\Now\rcs\matlab\phase\iter2421.mat');
 phase = file.phasesave;
-file = readmatrix('E:\Desktop\Now\rcs\cst\jerusalem cross\8ghz_data.csv');
+file = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\8ghz_data.csv');
 pl = ones(N,M);
 x = file(:,2);
 for i=1:1:N
