@@ -68,11 +68,35 @@ for i=1:1:N
         Yrange = dispy+[-PL/2 PL/2];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
         CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
-
         Name = 'horizontal';
         material = 'Copper (annealed)';
         Xrange = dispx+[-PL/2 PL/2];
         Yrange = dispy+[-w/2 w/2];
+        Zrange = [hg+hv+hs hg++hv+hs+hp];
+        CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
+
+        Name = 'top';
+        material = 'Copper (annealed)';
+        Xrange = dispx+[-pw/2 pw/2];
+        Yrange = dispy+[PL/2 PL/2+t];
+        Zrange = [hg+hv+hs hg++hv+hs+hp];
+        CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
+        Name = 'down';
+        material = 'Copper (annealed)';
+        Xrange = dispx+[-pw/2 pw/2];
+        Yrange = dispy+[-PL/2 -PL/2-t];
+        Zrange = [hg+hv+hs hg++hv+hs+hp];
+        CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
+        Name = 'left';
+        material = 'Copper (annealed)';
+        Xrange = dispx+[-PL/2-t -PL/2];
+        Yrange = dispy+[-pw/2 pw/2];
+        Zrange = [hg+hv+hs hg++hv+hs+hp];
+        CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
+        Name = 'right';
+        material = 'Copper (annealed)';
+        Xrange = dispx+[PL/2 PL/2+t];
+        Yrange = dispy+[-pw/2 pw/2];
         Zrange = [hg+hv+hs hg++hv+hs+hp];
         CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
 
