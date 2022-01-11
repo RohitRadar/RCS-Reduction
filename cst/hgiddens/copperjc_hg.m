@@ -6,8 +6,8 @@ CST.setBoundaryCondition('xmin','unit cell','xmax','unit cell','ymin','unit cell
 
 CST.addNormalMaterial('FR4',4.3,1,[0.8 0.8 0.3]);
 
-wg = 300;
-lg = 300;
+wg = 225;
+lg = 225;
 hg = 1;
 hv = 5;
 hs = 1.57;
@@ -15,8 +15,8 @@ hp = 0.035;
 w = 0.5;
 pw = 2;
 t = 0.2;
-N=20;
-M=20;
+N=15;
+M=15;
 interx = wg/M;
 intery = lg/N;
 
