@@ -2,13 +2,22 @@ clc;
 clear all;
 close all;
 
+file = fopen("10x10/readme.md",'w');
+fprintf(file,"#### ");
+for i=1:20:5001
+    fprintf(file,"iteration"+num2str(i)+"\n");
+    fprintf(file,"<img src='https://github.com/RohitRadar/RCS-Reduction/blob/main/matlab/10x10/pics/iter"+num2str(i)+".jpg' width='200' height='200'>"+"\n");
+    %fprintf(file,"![image](/matlab/pics/iter"+num2str(i)+".jpg)"+"\n");
+end
+fclose(file);
+
 %% spec
 freq=10*1e9;    
 c=3*1e8;
 lambda=c/freq;  
 k0=(2*pi)/lambda;
-mx=15;
-ny=15;
+mx=10;
+ny=10;
 dx=lambda/2;           
 dy=lambda/2;           
 M_X= -((mx-1)/2)*dx:dx:((mx-1)/2)*dx; 
@@ -68,7 +77,7 @@ imagesc(gnabs);
 title("desired gain")
 colorbar();
 pic=gcf;
-exportgraphics(pic,"15x15/pics/desiredgain.jpg");
+exportgraphics(pic,"10x10/pics/desiredgain.jpg");
 %% radiation pattern
 phase = 0*(pi/180)*ones(mx,ny);
 amp = 10*ones(mx,ny)/sqrt(100*mx*ny);
@@ -82,7 +91,7 @@ for u=1:length(ph)
         elf(:,:,u,v) = ep1(u,v)*amp.*exp(1i*(u1(u,v)*xc+v1(u,v)*yc));
     end
 end 
-filename="15x15/pics/test.gif";
+filename="10x10/pics/test.gif";
 figure(2);
 title("Radiation pattern");
 for iter=1:niter
@@ -110,7 +119,7 @@ for iter=1:niter
         imagesc(abs(f));
         colorbar();
         pic=gcf;
-        name = "15x15/pics/iter"+num2str(iter)+".jpg";
+        name = "10x10/pics/iter"+num2str(iter)+".jpg";
         exportgraphics(pic,name);
         drawnow
         frame=getframe(1);
@@ -121,17 +130,8 @@ for iter=1:niter
         else
             imwrite(imind,cm,filename,'gif','WriteMode','append');
         end
-        name="15x15/phase/iter"+num2str(iter)+".mat";
+        name="10x10/phase/iter"+num2str(iter)+".mat";
         phasesave = -(180/pi)*angle(bn);
         save(name,"phasesave");
     end
 end
-
-file = fopen("15x15/pics/readme.md",'w');
-fprintf(file,"#### ");
-for i=1:20:5001
-    fprintf(file,"iteration"+num2str(i)+"\n");
-    fprintf(file,"<img src='https://github.com/RohitRadar/RCS-Reduction/blob/main/matlab/15x15/pics/iter"+num2str(i)+".jpg' width='200' height='200'>"+"\n");
-    %fprintf(file,"![image](/matlab/pics/iter"+num2str(i)+".jpg)"+"\n");
-end
-fclose(file);

@@ -2,24 +2,24 @@ clc;
 clear all;
 close all;
 
-CST = CST_MicrowaveStudio(cd,'Copper_sc');
+CST = CST_MicrowaveStudio(cd,'coppersc_10x10');
 CST.setSolver('frequency');
 CST.setBoundaryCondition('xmin','unit cell','xmax','unit cell','ymin','unit cell','ymax','unit cell');
 
 CST.addNormalMaterial('FR4',4.3,1,[0.8 0.8 0.3]);
 
-wg = 225;
-lg = 225;
+wg = 150;
+lg = 150;
 hg = 1;
 hv = 5;
 hs = 1.57;
 hp = 0.035;
-N=15;
-M=15;
+N=10;
+M=10;
 interx = wg/M;
 intery = lg/N;
 
-file = load('E:\Desktop\Now\rcs\matlab\15x15\phase\iter2541.mat');
+file = load('E:\Desktop\Now\rcs\matlab\10x10\phase\iter441.mat');
 phase = file.phasesave;
 file = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\simple_cross_element_vs_phase.csv');
 ll = ones(N,M);
