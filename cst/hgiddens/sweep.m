@@ -24,8 +24,9 @@ for i=1:1:N
         ww(i,j)=file(index,3);
     end
 end
-writematrix(,'E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\elementsizes.csv')
-u = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\elements.csv');
+writematrix(ll,'E:\Desktop\Now\rcs\cst\hgiddens\sweep\elementlength.csv')
+writematrix(ww,'E:\Desktop\Now\rcs\cst\hgiddens\sweep\elementwidth.csv')
+u = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\sweep\elements.csv');
 lu=u(:,1)';
 wu=u(:,2)';
 for i=1:1:N
@@ -87,12 +88,12 @@ for i=1:1:N
             CST.runSimulation
             [freq,S,SType] = CST.getSParameters;
             Sp = [freq(:,1) 20*log10(abs(S(:,1)))];
-            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\' name 'mag' '.csv'];
+            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\sweep\' name 'mag' '.csv'];
             writematrix(Sp,filename);
             Sp = [freq(:,1) 180/pi*angle(S(:,1))];
-            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\' name 'phase' '.csv'];
+            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\sweep\' name 'phase' '.csv'];
             writematrix(Sp,filename);
-            writematrix([lu' wu'],'E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\elements.csv');
+            writematrix([lu' wu'],'E:\Desktop\Now\rcs\cst\hgiddens\sweep\elements.csv');
         end
     end
 end

@@ -2,102 +2,33 @@ clc;
 clear all;
 close all;
 
-wg = 15;
-lg = 15;
-hg = 1;
-hv = 5;
-hs = 1.57;
-hp = 0.035;
-N=15;
-M=15;
+filename = ['E:\Desktop\Now\rcs\cst\hgiddens\sweep\mag\10x1.txt'];
+file = fopen(filename,'r');
+C = textscan(file,'%f%f','MultipleDelimsAsOne',true, 'Delimiter','[;');
+fclose(file);
+freq = C{1};
+rcs_db = zeros(length(freq),1);
 
-file = load('E:\Desktop\Now\rcs\matlab\15x15\phase\iter2541.mat');
-phase = file.phasesave;
-file = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\simple_cross_element_vs_phase.csv');
-ll = ones(N,M);
-ww = ones(N,M);
-x = file(:,4);
-for i=1:1:N
-    for j=1:1:M
-        [val,index]=min(abs(x-phase(i,j)));
-        ll(i,j)=file(index,2);
-        ww(i,j)=file(index,3);
-    end
-end
-writematrix(ll,'E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\elementlength.csv')
-writematrix(ww,'E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\elementwidth.csv')
-u = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\elements.csv');
-lu=u(:,1)';
-wu=u(:,2)';
-for i=1:1:N
-    for j=1:1:M
-        x=0;
-        for k=1:1:length(lu)
-            if (lu(k)==ll(i,j))&&(wu(k)==ww(i,j))
-                x=1;
-                break;
-            end
-        end
-        if (x==0)
-            lu=[lu ll(i,j)];
-            wu=[wu ww(i,j)];
-            name = ['unitcell' num2str(i) 'x' num2str(j)];
-            CST = CST_MicrowaveStudio(cd,name);
-            CST.setSolver('frequency');
-            CST.setBoundaryCondition('xmin','unit cell','xmax','unit cell','ymin','unit cell','ymax','unit cell')
-            %define the first 2 modes of the floquet port
-            CST.defineFloquetModes(2)
-            CST.setFreq(3, 20);
-            CST.addNormalMaterial('FR4',4.3,1,[0.8 0.8 0.3]);
-    
-            Name = 'GroundPlane';
-            component = 'Base';
-            material = 'Copper (annealed)';
-            Xrange = [-wg/2 wg/2];
-            Yrange = [-lg/2 lg/2];
-            Zrange = [0 hg];
-            CST.addBrick(Xrange,Yrange,Zrange,Name,component,material);
-            Name = 'Vacuum';
-            material = 'Vacuum';
-            Xrange = [-wg/2 wg/2];
-            Yrange = [-lg/2 lg/2];
-            Zrange = [hg hg+hv];
-            CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
-            Name = 'Substrate';
-            material = 'FR4';
-            Xrange = [-wg/2 wg/2];
-            Yrange = [-lg/2 lg/2];
-            Zrange = [hg+hv hg+hv+hs];
-            CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
-            component = 'component';
-            Name = 'vertical';
-            material = 'Copper (annealed)';
-            Xrange = [-ww(i,j)/2 ww(i,j)/2];
-            Yrange = [-ll(i,j)/2 ll(i,j)/2];
-            Zrange = [hg+hv+hs hg++hv+hs+hp];
-            CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
-            Name = 'horizontal';
-            material = 'Copper (annealed)';
-            Xrange = [-ll(i,j)/2 ll(i,j)/2];
-            Yrange = [-ww(i,j)/2 ww(i,j)/2];
-            Zrange = [hg+hv+hs hg++hv+hs+hp];
-            CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
-            CST.mergeCommonSolids(component);
-    
-            CST.save;
-            CST.runSimulation
-            [freq,S,SType] = CST.getSParameters;
-            Sp = [freq(:,1) 20*log10(abs(S(:,1)))];
-            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\' name 'mag' '.csv'];
-            writematrix(Sp,filename);
-            Sp = [freq(:,1) 180/pi*angle(S(:,1))];
-            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\' name 'phase' '.csv'];
-            writematrix(Sp,filename);
-            writematrix([lu' wu'],'E:\Desktop\Now\rcs\cst\hgiddens\rcs_compare\elements.csv');
+l = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\sweep\elementlength.csv');
+w = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\sweep\elementwidth.csv');
+
+for i=1:1:length(freq)
+    rcs=0;
+    for j=1:1:15
+        for k=1:1:15
+            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\sweep\mag\' num2str(l(j,k)) 'x' num2str(w(j,k)) '.txt'];
+            file = fopen(filename,'r');
+            C = textscan(file,'%f%f','MultipleDelimsAsOne',true, 'Delimiter','[;');
+            fclose(file);
+            phase = C{2}(i);
+            filename = ['E:\Desktop\Now\rcs\cst\hgiddens\sweep\phase\' num2str(l(j,k)) 'x' num2str(w(j,k)) '.txt'];
+            file = fopen(filename,'r');
+            C = textscan(file,'%f%f','MultipleDelimsAsOne',true, 'Delimiter','[;');
+            fclose(file);
+            mag = C{2}(i);
+            rcs = rcs + mag*exp(1i*phase);
         end
     end
+    rcs_db(i) = 10*log10(power(abs(rcs/225),2));
 end
-
-
-
-
+plot(freq,rcs_db);

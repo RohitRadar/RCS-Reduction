@@ -19,7 +19,7 @@ intery = lg/N;
 
 file = load('E:\Desktop\Now\rcs\matlab\15x15\phase\iter2541.mat');
 phase = file.phasesave;
-file = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\jerusalem_cross_element_vs_phase.csv');
+file = readmatrix('E:\Desktop\Now\rcs\cst\hgiddens\sweep\jerusalem_cross_element_vs_phase.csv');
 ll = ones(N,M);
 ww = ones(N,M);
 endll = ones(N,M);
