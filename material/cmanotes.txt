@@ -1,0 +1,21 @@
+The cma is based on gsa.
+
+gsa is used to optimize functions with multiple independent variables.
+
+For a shaped-beam array problem, the independent variables are the amplitudes and phases of the elements and the cost function is the sum of the square of the difference between the desired field strength and the achieved achieved field strength at a few selective far-field points.
+
+
+algo:
+1.initiliaze: 
+	wave number
+	interelement spacing
+	no. of elements
+
+2.project 3d spherical coordinates of a semicircle on uv map
+	theta:0->90*
+	phi:-180:180*
+3.calculate element pattern. We assume the element radiation
+	pattern to be that of a rectangular aperture in an infinite ground plane. 
+4.plot desired gain on uv map
+5.Calculate current gain and find difference between desired and current gain. Take the point on uv map with maximum difference and apply cma to achieve the required gain.
+6. loop step5 until desired gain is achieved.

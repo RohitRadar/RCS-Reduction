@@ -2,11 +2,11 @@ clc;
 clear all;
 close all;
 
-file = fopen("10x10/readme.md",'w');
+file = fopen("20x20/readme.md",'w');
 fprintf(file,"#### ");
 for i=1:20:5001
     fprintf(file,"iteration"+num2str(i)+"\n");
-    fprintf(file,"<img src='https://github.com/RohitRadar/RCS-Reduction/blob/main/matlab/10x10/pics/iter"+num2str(i)+".jpg' width='200' height='200'>"+"\n");
+    fprintf(file,"<img src='https://github.com/RohitRadar/RCS-Reduction/blob/main/matlab/20x20/pics/iter"+num2str(i)+".jpg' width='200' height='200'>"+"\n");
     %fprintf(file,"![image](/matlab/pics/iter"+num2str(i)+".jpg)"+"\n");
 end
 fclose(file);
@@ -16,8 +16,8 @@ freq=10*1e9;
 c=3*1e8;
 lambda=c/freq;  
 k0=(2*pi)/lambda;
-mx=10;
-ny=10;
+mx=20;
+ny=20;
 dx=lambda/2;           
 dy=lambda/2;           
 M_X= -((mx-1)/2)*dx:dx:((mx-1)/2)*dx; 
@@ -77,7 +77,7 @@ imagesc(gnabs);
 title("desired gain")
 colorbar();
 pic=gcf;
-exportgraphics(pic,"10x10/pics/desiredgain.jpg");
+exportgraphics(pic,"20x20/pics/desiredgain.jpg");
 %% radiation pattern
 phase = 0*(pi/180)*ones(mx,ny);
 amp = 10*ones(mx,ny)/sqrt(100*mx*ny);
@@ -91,7 +91,7 @@ for u=1:length(ph)
         elf(:,:,u,v) = ep1(u,v)*amp.*exp(1i*(u1(u,v)*xc+v1(u,v)*yc));
     end
 end 
-filename="10x10/pics/test.gif";
+filename="20x20/pics/test.gif";
 figure(2);
 title("Radiation pattern");
 for iter=1:niter
@@ -116,10 +116,13 @@ for iter=1:niter
         end
     end
     if (rem(iter,20)==1)
+        hold on
         imagesc(abs(f));
+        plot(vlow,ulow,'ro')
+        hold off
         colorbar();
         pic=gcf;
-        name = "10x10/pics/iter"+num2str(iter)+".jpg";
+        name = "20x20/pics/iter"+num2str(iter)+".jpg";
         exportgraphics(pic,name);
         drawnow
         frame=getframe(1);
@@ -130,7 +133,7 @@ for iter=1:niter
         else
             imwrite(imind,cm,filename,'gif','WriteMode','append');
         end
-        name="10x10/phase/iter"+num2str(iter)+".mat";
+        name="20x20/phase/iter"+num2str(iter)+".mat";
         phasesave = -(180/pi)*angle(bn);
         save(name,"phasesave");
     end
