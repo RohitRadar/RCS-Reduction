@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2021.1 - Nov 10 2020 - ACIS 30.0.1 -
+[Author]
+rohit
+[Mesh Cells]
+
+[Mesh Type]
+Tetrahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f
+[Results]
+Unavailable
+[Modeler Unique ID]
+5:phoenix_1x1.cst?f16456ce2dacaf4b9a98e7b6cf3ec162?3574:numberofparameters=0::fport=zmin>fmode=1>zre=0>zim=0?fport=zmin>fmode=2>zre=0>zim=0?fport=zmax>fmode=1>zre=0>zim=0?fport=zmax>fmode=2>zre=0>zim=0
+[Comment]
