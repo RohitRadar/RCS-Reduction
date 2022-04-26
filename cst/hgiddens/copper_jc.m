@@ -1,6 +1,6 @@
 clear all;
 
-CST = CST_MicrowaveStudio(cd,'Copper_jc');
+CST = CST_MicrowaveStudio(cd,'copper_jc');
 CST.setSolver('frequency');
 CST.setBoundaryCondition('xmin','unit cell','xmax','unit cell','ymin','unit cell','ymax','unit cell');
 

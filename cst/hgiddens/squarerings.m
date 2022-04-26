@@ -35,8 +35,8 @@ Yrange = [-lg/2 lg/2];
 Zrange = [hg+hv hg+hv+hs];
 CST.addBrick(Xrange, Yrange, Zrange, Name, component, material)
 
-a3=6;%side length of inner square
-w3=2;%thickness of inner square
+a3=4;%side length of inner square
+w3=1;%thickness of inner square
 d2=1;%distance between inner and center square
 w2=2;%thickness of center square
 d1=1;%distance between center and outer square
