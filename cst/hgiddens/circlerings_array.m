@@ -21,21 +21,21 @@ intery = lg/N;
 
 file = load('C:\Users\rohit\OneDrive\Desktop\Now\rcs\matlab\20x20\phase\iter2541.mat');
 phase = file.phasesave;
-file = readmatrix('C:\Users\rohit\OneDrive\Desktop\Now\rcs\cst\hgiddens\sweep\circlerings.csv');
+file = readmatrix('C:\Users\rohit\OneDrive\Desktop\Now\rcs\cst\hgiddens\sweep\circlerings_data.csv');
 
 ol = ones(N,M);
 xl = ones(N,M);
 rl = ones(N,M);
 nl = ones(N,M);
 
-x = file(:,4);
+x = file(:,7);
 for i=1:1:N
     for j=1:1:M
         [val,index]=min(abs(x-phase(i,j)));
-        ol(i,j)=file(index,2);
-        xl(i,j)=file(index,3);
-        rl(i,j)=file(index,4);
-        nl(i,j)=file(index,5);
+        ol(i,j)=file(index,3);
+        xl(i,j)=file(index,4);
+        rl(i,j)=file(index,5);
+        nl(i,j)=file(index,6);
     end
 end
 

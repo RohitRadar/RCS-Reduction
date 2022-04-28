@@ -21,7 +21,7 @@ intery = lg/N;
 
 file = load('C:\Users\rohit\OneDrive\Desktop\Now\rcs\matlab\20x20\phase\iter2541.mat');
 phase = file.phasesave;
-file = readmatrix('C:\Users\rohit\OneDrive\Desktop\Now\rcs\cst\hgiddens\sweep\phoenix.csv');
+file = readmatrix('C:\Users\rohit\OneDrive\Desktop\Now\rcs\cst\hgiddens\sweep\phoenix_data.csv');
 
 ol = ones(N,M);%solid circle radius
 rl = ones(N,M);%outer ring outer radius
@@ -29,15 +29,15 @@ sl = ones(N,M);%outer ring inner radius
 pl = ones(N,M);%inner ring outer radius
 gl = ones(N,M);%inner ring inner radius
 
-x = file(:,4);
+x = file(:,7);
 for i=1:1:N
     for j=1:1:M
         [val,index]=min(abs(x-phase(i,j)));
-        ol(i,j)=file(index,2);
-        rl(i,j)=file(index,3);
-        sl(i,j)=file(index,4);
-        pl(i,j)=file(index,5);
-        gl(i,j)=file(index,6);
+        ol(i,j)=file(index,3);
+        rl(i,j)=file(index,5);
+        sl(i,j)=file(index,6);
+        pl(i,j)=file(index,4);
+        gl(i,j)=file(index,2);
     end
 end
 
